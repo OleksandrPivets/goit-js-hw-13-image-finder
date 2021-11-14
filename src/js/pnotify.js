@@ -8,14 +8,14 @@ defaults.icons = 'material';
 
 function myNotice() {
  notice({
-  text: 'Too many matches found. Please enter a more specific query!',
+  text: 'Enter something!',
   delay: 2500,
  });
 }
 
 function myError() {
  error({
-  text: "There's no country with this name",
+  text: 'Nothing found for your query',
   delay: 2500,
  });
 }

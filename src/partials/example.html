@@ -1,6 +1,15 @@
-<article class="example">
-  <div class="container">
-    <input class="input" type="text" placeholder="Enter Country name" />
-    <div class="card-wrapper"></div>
+  <form class="search-form" id="search-form">
+    <input
+     type="text"
+     name="query"
+     autocomplete="off"
+     placeholder="Search images..."
+    />
+    <button class="search-btn btn" type="submit">Search</button>
+   </form>
+   <ul class="gallery">
+    <!-- Список <li> с карточками изображений -->
+   </ul>
+   <div class="wrapper">
+    <button class="load-more-btn btn is-hidden">Load more</button>
    </div>
-</article>
