@@ -34,7 +34,7 @@ function onLoadMore() {
  setTimeout(() => {
   refs.wrapper.scrollIntoView({
    behavior: 'smooth',
-   block: 'start',
+   block: 'end',
   });
  }, 500);
 }
